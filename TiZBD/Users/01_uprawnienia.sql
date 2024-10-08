@@ -2,7 +2,8 @@
     CREATE USER jeden;
     CREATE USER dwa;
 --  A. Nadaj uprawnienia wprowadzania, zmiany i usuwania danych w całej bazie komis dla użytkownika jeden
-    GRANT INSERT, UPDATE, DELETE, SELECT ON Uprawienia.* TO jeden;
+-- była literówka w nazwie bazy danych
+    GRANT INSERT, UPDATE, DELETE, SELECT ON Uprawnienia.* TO jeden;
 -- B. nadaj wszystkie uprawnienia do tabeli Auta użytkownikowi dwa
     GRANT ALL PRIVILEGES ON Uprawienia.Auta TO dwa;
 -- C. odbierz użytkownikowi jeden prawa usuwania danych 
