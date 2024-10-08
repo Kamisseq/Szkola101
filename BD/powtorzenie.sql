@@ -77,5 +77,24 @@ SELECT nazwa, cena
 FROM Produkty
 WHERE cena = (SELECT MIN(cena) FROM Produkty);
 
+INSERT INTO products (name, price, manufacturer_id)
+VALUES ('Loudspeakers', 70, 2);
+
+
+
+UPDATE products
+SET name = 'Laser Printer'
+WHERE id = 8;
+
+
+
+UPDATE products
+SET price = price * 0.9;
+
+
+UPDATE products
+SET price = price * 0.9
+WHERE price >= 120;
+
 
 
