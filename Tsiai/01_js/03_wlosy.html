@@ -4,38 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promocja na Strzyżenie</title>
-    <script>
-        function odkryjPromocje(){
-            const dlugosc=document.querySelector
-            let cena
-            switch(dlugosc){
-                case 'krotkie':
-                    cena=25;
-                    break;
-                case 'srednie':
-                    cena=30;
-                    break
-                case 'poldlugie': 
-                    cena=40;
-                    break
-                case 'dlugie':
-                    cena=50;
-                    break
-            }
-            document.getElementById('wynik').textContent = 'Cena strzyżenia wynosi: ' + cena;
-        }
-    </script>
+    <script src="03_wlosy.js" defer></script>
 </head>
 <body>
     <h3>Dziś promocja na strzyżenie włosów</h3>
 
     <form action="">
-        <input type="radio" name="dlugosc" id="krotkie">Krótkie<br>
-        <input type="radio" name="dlugosc" id="srednie">Średnie<br>
-        <input type="radio" name="dlugosc" id="poldlugie">Półdługie<br>
-        <input type="radio" name="dlugosc" id="dlugie">Długie<br>
+        <input type="radio" name="dlugosc" id="krotkie">
+        <label for="krotkie">Krótkie</label><br>
+        <input type="radio" name="dlugosc" id="srednie">
+        <label for="srednie">Średnie</label><br>
+        <input type="radio" name="dlugosc" id="poldlugie">
+        <label for="poldlugie">Półdługie</label><br>
+        <input type="radio" name="dlugosc" id="dlugie">
+        <label for="dlugie">Długie</label><br>
         
-        <button type="button" onclick="odkryjPromocje()">Odkryj promocję</button>
+        <button>Odkryj promocję</button>
     </form>
     <p id='wynik'>Cena strzyżenia wynosi: </p>
 </body>

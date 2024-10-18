@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="03_usluga.js" defer></script>
+</head>
+<body>
+    <form id="serviceForm">
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="service">Usługa:</label><br>
+        <select id="service" name="service">
+            <option value="naprawa komputera">Naprawa komputera</option>
+            <option value="odzyskiwanie danych">Odzyskiwanie danych</option>
+            <option value="konfiguracja sieci">Konfiguracja sieci</option>
+            <option value="inne">Inne</option>
+        </select><br><br>
+
+        <input type="checkbox" id="copy" name="copy">
+        <label for="copy">Wyślij kopię wiadomości</label><br><br>
+
+        <button>Prześlij</button>
+        <button type="reset">Resetuj</button>
+    </form>
+
+    <p id="result"></p>
+</body>
+</html>
