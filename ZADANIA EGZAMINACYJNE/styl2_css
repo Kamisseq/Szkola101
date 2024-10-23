@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.color-picker {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.color-picker label {
+    font-size: 1.2em;
+}
+
+.color-picker p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.color-picker input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.color-picker button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.color-picker button:hover {
+    background-color: #0056b3;
+}
+
+.color-display {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #cfe8ff;
+}
+
+.color-display div {
+    width: 18%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
