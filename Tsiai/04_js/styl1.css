@@ -1,0 +1,36 @@
+.class1 {
+    font-size: 15px;
+    color: black;
+    text-decoration: solid;
+    text-transform: capitalize;
+}
+
+.class2 {
+    font-size: 25px;
+    color: purple;
+    text-transform: lowercase;
+}
+
+.class3 {
+    font-size: 2rem;
+    color: orange;
+    text-transform: uppercase;
+}
+
+body{
+    display:flex
+}
+
+.left {
+    width: 30%;
+    padding: 20px;
+}
+
+.right {
+    width: 60%;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}

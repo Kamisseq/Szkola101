@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styl1.css">
+    <script src="zadanie.js" defer></script>
+  </head>
+  <body>
+    <section class="left">
+      <label for="fontSize">Wielkość czcionki</label>
+      <input
+        type="number"
+        name="fontSize"
+        id="fontSize"
+        min="8"
+        max="160"
+        step="8"
+      /><br />
+
+      <label for="italicText">Pochylony tekst</label>
+      <input type="checkbox" name="" id="italicText" /><br />
+
+      <ul>
+        <li>
+          <input type="radio" id="colorRed" name="colorOption" value="20" />
+          <label for="colorRed">Kolor czerwony</label>
+        </li>
+        <li>
+            <input type="radio" id="colorGreen" name="colorOption" value="100" />
+            <label for="colorGreen">Kolor zielony</label>
+        </li>
+        <li>
+            <input type="radio" id="colorBlue" name="colorOption" value="200" />
+            <label for="colorBlue">Kolor niebieski</label>
+        </li>
+      </ul>
+        <label for="classSelecting">Wybierz styl: </label>
+        <select name="" id="classSelecting">
+            <option value="class1">Styl 1</option>
+            <option value="class2">Styl 2</option>
+            <option value="class3">Styl 3</option>
+        </select>
+    </section>
+
+    <section class="right">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
+        molestiae id quia voluptatum perspiciatis quod sunt, assumenda labore
+        eligendi, et minima earum consequatur cum itaque tempore in possimus
+        illum harum.
+      </p>
+    </section>
+  </body>
+</html>
