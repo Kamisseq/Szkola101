@@ -1,0 +1,29 @@
+body{
+    display:grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+        'hd aside'
+        'main aside'
+        'ft ft';
+}
+header {
+    grid-area: hd;
+    background-color: tomato;
+    height: 80px;
+}
+main {
+    grid-area: main;
+    height: 600px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: coral;
+    height: 680px;
+}
+
+footer{
+    grid-area: ft;
+    background-color: tomato;
+    
+}
