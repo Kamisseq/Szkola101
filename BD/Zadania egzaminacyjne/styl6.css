@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana ;
+}
+
+.first, .second {
+    background-color: #6F79A8;
+    color: white;
+    height: 140px;
+}
+
+.first{
+    width: 30%;
+}
+
+.second {
+    width: 70%;
+}
+
+.calendar{
+    background-color: #9fa8da;
+    width: 160px;
+    height: 85px;
+    margin: 5px;
+    border: 1px SOLID #6F79A8;
+    overflow: hidden;
+}
+
+.calendar:hover {
+    background-color: #6F79A8;
+    color: white;
+}
+
+footer{
+    background-color: #6F79A8;
+    color: white;
+    margin: 5px;
+    text-align: right;
+}
+
+h6{
+    text-align: center;
+}
+
+header{
+    display: flex;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}

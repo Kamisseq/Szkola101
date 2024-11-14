@@ -1,0 +1,16 @@
+body{
+    display: flex;
+}
+
+.blockContainer {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+
+.block{
+    width: 10rem;
+    height: 5rem;
+    background-color: red;
+    margin: 0.5rem;
+}

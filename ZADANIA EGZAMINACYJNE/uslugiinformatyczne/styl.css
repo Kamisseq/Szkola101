@@ -1,0 +1,58 @@
+body {
+    background-color: #EEEEEE;
+    font-family: Helvetica, sans-serif;
+    width: 90%;
+    margin: auto;
+}
+
+.top-section {
+    display: flex;
+    background-color: LightBlue;
+    height: 100px;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.menu a {
+    color: Navy;
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+.menu a:hover {
+    border: 1px solid Navy;
+}
+
+header {
+    background-color: #DDDDDD;
+    height: 200px;
+}
+
+main {
+    color: Navy;
+    margin: 50px;
+    height: 400px;
+}
+
+footer {
+    text-align: right;
+    background-color: LightBlue;
+    padding: 10px;
+}
+
+button {
+    background-color: LightBlue;
+    color: Navy;
+}

@@ -1,0 +1,27 @@
+.error{
+    border-color: red;
+    background-color: rgb(204, 127, 127);
+}
+
+body{
+    display:flex
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imageContainer{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    padding: 20px;
+   
+}

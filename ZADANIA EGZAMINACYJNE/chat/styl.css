@@ -1,3 +1,7 @@
+*{
+    font-family: garamond;
+}
+
 body{
     display:grid;
     grid-template-columns: 80% 20%;
@@ -10,6 +14,8 @@ header {
     grid-area: hd;
     background-color: tomato;
     height: 80px;
+    color: white;
+    text-align: center;
 }
 main {
     grid-area: main;
@@ -25,5 +31,54 @@ aside {
 footer{
     grid-area: ft;
     background-color: tomato;
-    
+    color: white;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.chat{
+    border: 1px solid tomato;
+    margin: 15px;
+    height: 470px;
+    overflow:scroll;
+}
+
+.Jolka, .Krzysiek{
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    padding: 2%;
+    margin: 3px;
+}
+
+.Jolka {
+    background-color: #EEE;
+}
+.Jolka img{
+    float: left;
+}
+
+
+.Krzysiek{
+    background-color: #CCC;
+    text-align: right;
+}
+.Krzysiek img{
+    float: right;
+}
+
+button{
+    background-color: tomato;
+    border: 1px solid darkred;
+    margin: 5px;
+    font-weight: bold;
+}
+
+#message {
+    width: 500px;
 }
