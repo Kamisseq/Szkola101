@@ -14,5 +14,9 @@ buttonE.addEventListener("click", (e)=>{
         resultMessageE.textContent = "DOBRE";
         resultMessageE.style.color = "green";
     }
+    else {
+        resultMessageE.textContent = "złe";
+        resultMessageE.style.color = "black";
+    }
 
 })
