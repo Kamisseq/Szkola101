@@ -6,11 +6,11 @@
     <title>Firma IT</title>
     <link rel="stylesheet" href="styl.css">
     <link rel="icon" href="logo.png" type="image/png">
-    <script src="script.js"></script>
+    <script src="uslugi.js" defer></script>
 </head>
 <body>
     
-        <section class="top-section">
+        <section class="topsection">
             <div class="logo">
                 <img src="logo.png" alt="firma it">
             </div>
@@ -49,8 +49,8 @@
                         <td colspan="2"><input type="checkbox" id="regulamin"> Zapoznałam/em się z regulaminem</td>
                     </tr>
                     <tr>
-                        <td><button type="reset">Resetuj</button></td>
-                        <td><button type="button" onclick="przeslij()">Prześlij</button></td>
+                        <td><button type="reset" id="resetGuzik">Resetuj</button></td>
+                        <td><button type="button" id="przeslijGuzik">Prześlij</button></td>
                     </tr>
                 </table>
                 <p id="komunikat"></p>

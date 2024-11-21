@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Fryzjerstwo</title>
     <link rel="stylesheet" href="styl8.css">
+    <script src="fryzjer.js" defer></script>
 </head>
 <body>
 <section class="Bloki">
@@ -12,16 +13,12 @@
     </section>
     <section class="blok-lewy">
         <h2>PROMOCJA!</h2>
-        <label><input type="radio" name="dlugosc" value="Krótkie"> Krótkie</label><br>
-        <label><input type="radio" name="dlugosc" value="Średnie"> Średnie</label><br>
-        <label><input type="radio" name="dlugosc" value="Półdługie"> Półdługie</label><br>
-        <label><input type="radio" name="dlugosc" value="Długie"> Długie</label><br>
-        <button onclick="discoverPromotion()">Odkryj promocję</button>
-        <script>
-            function discoverPromotion() {
-                alert("Sprawdź nasze promocje na strzyżenie!");
-            }
-        </script>
+        <label><input type="radio" name="dlugosc" value="krotkie"> Krótkie</label><br>
+        <label><input type="radio" name="dlugosc" value="srednie"> Średnie</label><br>
+        <label><input type="radio" name="dlugosc" value="poldlugie"> Półdługie</label><br>
+        <label><input type="radio" name="dlugosc" value="dlugie"> Długie</label><br>
+        <button>Odkryj promocję</button>
+        <p id="wynik"></p>
     </section>
     <section class="blok-lewy">
         <p>Witaj! Miło nam, że odwiedziłeś nasz salon. Sprawdź promocje!</p>
