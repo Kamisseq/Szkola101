@@ -15,12 +15,13 @@ main {
 }
 
 
-footer {
+footer div {
     background-color: #C2185B;
     color: white;
     width: 25%;
     height: 240px;
-
+    display: inline-flex;
+    vertical-align: top;
 }
 
 .shownBlock, .hiddenBlock{
@@ -35,7 +36,7 @@ footer {
 }
 
 .hiddenBlock{
-    display: none;
+    display: none;   
 }
 
 p {
