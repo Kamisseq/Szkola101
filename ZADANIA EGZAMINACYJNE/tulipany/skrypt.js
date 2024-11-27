@@ -1,11 +1,11 @@
 nextButton1.addEventListener("click", (e) => {
-        document.getElementById("block1").style.display = "none";
-        document.getElementById("block2").style.display = "inline-block";
+        document.getElementById("block1").style.visibility = "hidden";
+        document.getElementById("block2").style.visibility = "visible";
 });
 
 nextButton2.addEventListener("click", (e) => {
-    document.getElementById("block2").style.display = "none";
-    document.getElementById("block3").style.display = "inline-block";
+    document.getElementById("block2").style.visibility = "hidden";
+    document.getElementById("block3").style.visibility = "visible";
 });
 
 
