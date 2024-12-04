@@ -1,0 +1,76 @@
+* {
+    font-family: Cambria;
+}
+
+body{
+    background-color: Linen;
+}
+
+aside, header, footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+aside{
+    width: 25%;
+    height: 510px;
+    margin: 0 1%;
+    box-shadow: 4px 4px 5px dimgray;
+}
+
+header{
+    height: 80px;
+}
+
+main{
+    height: 400px;
+}
+
+.flex{
+    width: 73%;
+}
+
+.everything{
+    display:flex;
+}
+
+button{
+    background-color: steelblue;
+    color: white;
+    width: 20%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 130%;
+    border: none;
+}
+
+button:hover{
+    background-color: navy;
+}
+
+.tab{
+    background-color: lightblue;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.progressBar{
+    background-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+#progress{
+    background-color: navy;
+    width: 4%;
+    height: 30px;
+}
+
+table{
+    width: 100%;
+    border: 1px dotted navy;
+}

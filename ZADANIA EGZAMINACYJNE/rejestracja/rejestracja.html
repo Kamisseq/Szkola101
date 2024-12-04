@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep - rejestracja</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="skrypt.js" defer></script>
+</head>
+<body>
+
+<section class="everything">
+
+    <aside>
+
+        <img src="obraz.png" alt="promocje">
+        <h2>Sprawdź promocje</h2>
+        <table>
+            <tr>
+                <th>co?</th>
+                <th>ile taniej?</th>
+            </tr>
+            <tr>
+                <td>ubrania</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td>buty</td>
+                <td>25%</td>
+            </tr>
+        </table>
+
+    </aside>
+
+    <section class="flex">
+
+        <header>
+
+            <h1>Zarejestruj się w sklepie</h1>
+
+        </header>
+
+        <main>
+
+            <button id="btn1">Klient</button>
+            <button id="btn2">Adres</button>
+            <button id="btn3">Kontakt</button>
+
+                <div id="tab1" class="tab">
+                    <p>Imię</p>
+                    <input type="text" name="" id="firstName" placeholder="Wpisz dane">
+                    <p>Nazwisko</p>
+                    <input type="text" name="" id="lastName">
+                    <p>Data urodzenia</p>
+                    <input type="date" name="" id="birthDate">
+                </div>
+
+                <div id="tab2" class="tab hidden">
+                    <p>Ulica</p>
+                    <input type="text" name="" id="street">
+                    <p>Numer</p>
+                    <input type="number" name="" id="houseNumber">
+                    <p>Miasto</p>
+                    <input type="text" id="city">
+                </div>
+
+                <div id="tab3" class="tab hidden">
+                    <p>Numer komórkowy</p>
+                    <input type="tel" name="" id="telephoneNumber">
+                    <label for="">
+                        <input type="checkbox" name="" id="rodo"> Akceptuję rodo
+                    </label>
+                    <button>Zatwierdź dane</button>
+                </div>
+
+        </main>
+
+        <section class="progressBar">
+
+            <div id="progress"></div>
+
+        </section>
+
+    </section>
+
+</section>
+
+    <footer>
+
+        <h4>Rejestrację do sklepu wykonał 00000000000000</h4>
+
+    </footer>
+
+</body>
+</html>
